@@ -1391,7 +1391,7 @@ namespace Myra.Graphics2D.UI
 				context.Draw(Cursor,
 					new Rectangle(p.X, p.Y,
 						Cursor.Size.X,
-						CrossEngineStuff.LineSpacing(_formattedText.Font)));
+						CrossEngineStuff.LineSpacing(_formattedText.Font)), TextColor);
 			}
 		}
 
